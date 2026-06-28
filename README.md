@@ -1,3 +1,23 @@
+# DataTesting Setup
+
+## Requirements
+- Unity 2022.3.62f3
+- Emotiv Cortex app running on localhost:6868
+- Python 3.10 with bleak installed (pip install bleak)
+- SteamVR or VIVE software for eye tracking
+- Polar HR device + USB dongle
+
+## Before hitting Play
+1. Open Emotiv Cortex app
+2. Run polar_hr_bridge.py manually or set Python path in PolarHRLauncher Inspector
+3. Connect VIVE headset via SteamVR
+4. Enter clientId and clientSecret in EEGManager Inspector
+
+## Data output location
+Project/Data/{ParticipantName}_{ParticipantID}/
+
+---
+
 # VR Pedestrian Safety Research Simulator — User Manual
 
 Unity-based VR experiment for studying pedestrian road-crossing behaviour.
