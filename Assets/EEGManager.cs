@@ -81,6 +81,18 @@ public class EEGManager : MonoBehaviour
             Debug.Log($"[EEGManager] Session ready. Headset: {EmotivUnityItf.Instance.WorkingHeadsetId}");
             StartCoroutine(EEGDiagnosticRoutine());
         }
+
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            StartRecording();
+            Debug.Log("Recording started via S key");
+        }
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            StopRecording();
+            Debug.Log("Recording stopped via E key");
+        }
     }
 
     public void StartRecording()
