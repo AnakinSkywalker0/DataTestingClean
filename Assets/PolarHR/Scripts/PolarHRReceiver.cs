@@ -14,7 +14,8 @@ public class PolarHRReceiver : MonoBehaviour
 
     public int CurrentHR { get; private set; }
 
-    private const int Port = 12345;
+    [SerializeField] private int port = 12345;
+
     private UdpClient _udp;
     private Thread _thread;
     private readonly Queue<int> _queue = new Queue<int>();
@@ -30,16 +31,16 @@ public class PolarHRReceiver : MonoBehaviour
 
     private void Start()
     {
-        _udp = new UdpClient(Port);
+        _udp = new UdpClient(port);
         _running = true;
         _thread = new Thread(ReceiveLoop) { IsBackground = true };
         _thread.Start();
-        Debug.Log($"[PolarHRReceiver] Listening on UDP port {Port}");
+        Debug.Log($"[PolarHRReceiver] Listening on UDP port {port}");
     }
 
     private void ReceiveLoop()
     {
-        var ep = new IPEndPoint(IPAddress.Any, Port);
+        var ep = new IPEndPoint(IPAddress.Any, port);
         while (_running)
         {
             try
