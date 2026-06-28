@@ -1,0 +1,7 @@
+Time(ms),Zone,Speed(M/s),ID,Status,Step,Yaw,Pitch,PlayerPos_X,PlayerPos_Y,PlayerPos_Z,NearestCarId,NearestCarType,NearestCarDistance,NearestCar_Speed,NearestCarPos_X,NearestCarPos_Y,NearestCarPos_Z
+87.50,FootPath,0.522,id,Walking,0.00,187.17,0.00,-43.800,1.000,-45.700,None,None,,,,,
+87.60,FootPath,0.522,id,Walking,0.00,187.17,0.00,-43.800,1.000,-45.700,None,None,,,,,
+87.70,FootPath,0.522,id,Walking,0.00,187.17,0.00,-43.800,1.000,-45.700,None,None,,,,,
+87.80,FootPath,0.522,id,Walking,0.00,187.17,0.00,-43.800,1.000,-45.700,None,None,,,,,
+87.90,FootPath,0.522,id,Walking,0.00,187.17,0.00,-43.800,1.000,-45.700,None,None,,,,,
+88.00,FootPath,0.522,id,Walking,0.00,187.17,0.00,-43.800,1.000,-45.700,None,None,,,,,

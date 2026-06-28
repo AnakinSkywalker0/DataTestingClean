@@ -1,0 +1,1 @@
+Time(ms),ID,Gaze_X,Gaze_Y,Gaze_Z,TrackingObject,FixationDuration,PreviousAOI,CurrentAOI,PupilLeft,PupilRight,PupilCombined,SaccadeSpeed,HeadYaw,HeadPitch,Blink,LookAheadCarID,LookAheadCarType,LookAheadCarSpeed,Distance,LookAheadCar_PosX,LookAheadCar_PosY,LookAheadCar_PosZ

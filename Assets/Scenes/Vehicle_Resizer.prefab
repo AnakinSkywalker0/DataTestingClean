@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1210440559648986269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7038579271258023427}
+  - component: {fileID: 5816202604815893827}
+  m_Layer: 0
+  m_Name: Vehicle_Resizer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7038579271258023427
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210440559648986269}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 103.46178, y: 53.696804, z: -3.0928006}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5816202604815893827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210440559648986269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b0511985e366074db75283785b5c185, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicles:
+  - vehicleName: car_small_1
+    visualModel: {fileID: 8120599139565859098, guid: bd376cd2f0730ef469b08aa9d098ac93,
+      type: 3}
+    correctedScale: {x: 1.46, y: 0.86, z: 4.19}
+  - vehicleName: car_small_2
+    visualModel: {fileID: 2879439559499355604, guid: 30b3d261b3aaae74999d7a4e994395ed,
+      type: 3}
+    correctedScale: {x: 1.68, y: 1.31, z: 5.33}
+  - vehicleName: car_small_3
+    visualModel: {fileID: 9033161603923579514, guid: 724dbcc2d91ed494da668ff448341d04,
+      type: 3}
+    correctedScale: {x: 1.78, y: 1.41, z: 5.2}
+  - vehicleName: car_big_1
+    visualModel: {fileID: 2691923799927682229, guid: a46724f8efc43c84b9e3666da3e84fed,
+      type: 3}
+    correctedScale: {x: 1.86, y: 1.49, z: 5.78}
+  - vehicleName: car_big_2
+    visualModel: {fileID: 6659249664230527996, guid: e71356b015e255744836ccda0685612a,
+      type: 3}
+    correctedScale: {x: 1.88, y: 1.56, z: 6.07}
+  - vehicleName: car_big_3
+    visualModel: {fileID: 1211249090389528308, guid: 2abe72aba08eba246a4a0cb5a3b4715c,
+      type: 3}
+    correctedScale: {x: 1.59, y: 1.61, z: 6.8}
+  - vehicleName: motorcycle_bike
+    visualModel: {fileID: 3810328969887093982, guid: 5af1b0d27543dee4f97f3fbb3ebb5b80,
+      type: 3}
+    correctedScale: {x: 1.1, y: 0.7, z: 1.08}
+  - vehicleName: motorcycle_activa
+    visualModel: {fileID: 3810328969887093982, guid: 5af1b0d27543dee4f97f3fbb3ebb5b80,
+      type: 3}
+    correctedScale: {x: 1.27, y: 0.86, z: 1.28}
+  - vehicleName: tuktuk
+    visualModel: {fileID: 4540935968397842496, guid: 36bd03f38b2ed7d4b923f23bffca7715,
+      type: 3}
+    correctedScale: {x: 1.94, y: 1.52, z: 2.16}
+  - vehicleName: bus
+    visualModel: {fileID: 1771265366882182081, guid: 6de3609ae269ad649b4bd672c962e164,
+      type: 3}
+    correctedScale: {x: 1.45, y: 1.01, z: 1.29}
+  - vehicleName: medium_vehicle
+    visualModel: {fileID: -8679921383154817045, guid: 7c033ec85c0995341bdcd152600bd05e,
+      type: 3}
+    correctedScale: {x: 2.36, y: 1.56, z: 2.6}
+  - vehicleName: heavy_vehicle
+    visualModel: {fileID: -8679921383154817045, guid: f1060e7ed4d819d468161816fd381c53,
+      type: 3}
+    correctedScale: {x: 1.36, y: 0.81, z: 1.27}

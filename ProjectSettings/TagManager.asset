@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - IaCar
+  - Other
+  - Building
+  - WaitingPoint
+  - FOOTPATH
+  - CROSSING
+  - FootPath
+  - CrossWalk
+  - pedestrian-katvr
+  - MidBlock
+  - SharpenLevel
+  - SharpenMode
+  - EventCanvas
+  - EnableButton02
+  - EnableButton03
+  - EnableButton01
+  - checkPoint
+  - Car
+  - Motorcycle
+  - Tuktuk
+  - Truck
+  - Bus
+  - EEGMarker
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Car_
+  - WalkingArea
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
